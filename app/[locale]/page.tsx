@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import CaseStudy from "@app/_components/Common/CaseStudy";
 import Hero from "@app/_components/Common/Hero";
 import RecentArticles from "@app/_components/Common/RecentArticles";
+import OurValuedClients from "@app/_components/Home/OurValuedClients";
 import Services from "@app/_components/Home/Services";
 import Spinner from "@app/_components/spinner";
 import { Button } from "@app/_components/ui/button";
@@ -28,6 +29,7 @@ export default async function Page({ params: { locale } }: PageProps) {
           }
         />
         <Services t={t} />
+        <OurValuedClients t={t} />
         <CaseStudy t={t} />
         <Suspense
           fallback={
