@@ -22,11 +22,11 @@ export const Footer = async () => {
               {t("common:footer.navigation")}
             </h3>
             <div className="flex flex-wrap gap-6 text-sm font-bold text-gray-300 2xl:text-lg">
-              <Link href="/about-us">{t("common:footer.about")}</Link>
-              <Link href="/blog-home">{t("common:footer.projects")}</Link>
-              <Link href="/faqs">{t("common:footer.what-we-do")}</Link>
-              <Link href="/">{t("common:footer.press")}</Link>
-              <Link href="/job-opening">{t("common:footer.jobs")}</Link>
+              <Link href="/">{t("common:home-page")}</Link>
+              <Link href="/candidate">{t("common:candidate")}</Link>
+              <Link href="/blog-home">{t("common:blog")}</Link>
+              <Link href="/about-us">{t("common:about-us")}</Link>
+              <Link href="/faqs">{t("common:resources")}</Link>
             </div>
             <h3 className="text-lg font-medium text-gray-900 dark:text-gray-800 2xl:text-2xl">
               {t("common:footer.follow-us")}
