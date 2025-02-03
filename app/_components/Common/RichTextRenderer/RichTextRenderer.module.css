@@ -1,0 +1,71 @@
+/* RichTextRenderer.module.css */
+.richTextContainer {
+  @apply !text-gray-200;
+}
+
+.richTextContainer :where(h1, h2, h3, h4, h5, h6) {
+  @apply font-bold text-gray-900;
+}
+
+.richTextContainer h1 {
+  @apply mb-6 text-4xl;
+}
+
+.richTextContainer h2 {
+  @apply mb-6 text-3xl;
+}
+
+.richTextContainer h3 {
+  @apply relative mb-6 ps-6 text-xl;
+}
+
+.richTextContainer h3::before {
+  @apply absolute start-0 top-1/2 mb-2 block h-0.5 w-[0.875rem] -translate-y-1/2 bg-[#F59A74] content-[''];
+}
+
+.richTextContainer p {
+  @apply mb-[1.375rem] text-base;
+}
+
+.richTextContainer a {
+  @apply text-blue-600 underline;
+}
+
+.richTextContainer ol {
+  @apply mb-4 list-decimal pl-5;
+}
+
+.richTextContainer ul {
+  @apply list-inside ps-0;
+}
+
+.richTextContainer li {
+  @apply relative mb-3 ps-[1.625rem];
+}
+
+.richTextContainer li::before {
+  content: "";
+  display: inline-block;
+  width: 1.125rem;
+  height: 1.125rem;
+  background-image: url("../../../../public/icons/list-item-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* .richTextContainer li::before {
+  @apply absolute start-0 top-1.5 size-[1.125rem];
+  content: "";
+  background-image: 
+  background-repeat: no-repeat;
+  background-size: contain;
+} 
+*/
+
+.richTextContainer img {
+  @apply h-auto max-h-[28.75rem] w-full rounded-2xl object-cover;
+}

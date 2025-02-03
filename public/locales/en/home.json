@@ -1,0 +1,36 @@
+{
+  "home": "Your Growth Partner",
+  "hero": {
+    "subtitle": "A creative agency that lead and inspire",
+    "title": "Your Growth Partner",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros..",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us"
+  },
+
+  "sections": {
+    "tech-consultation": {
+      "title": "Technology Consultation",
+      "description": "Empowering businesses through innovative tech solutions"
+    },
+    "part-time": {
+      "title": "Part-Time Outsource",
+      "description": "Flexible staffing solutions for your growing needs"
+    },
+    "full-time": {
+      "title": "Full-Time Outsource",
+      "description": "Complete workforce management solutions"
+    },
+    "hr-operations": {
+      "title": "HR Operations Outsource",
+      "description": "Streamline your HR processes and operations"
+    },
+    "hr-consultation": {
+      "title": "HR Consultation",
+      "description": "Expert guidance for your human resource needs"
+    }
+  },
+  "actions": {
+    "learn-more": "Learn More"
+  }
+}

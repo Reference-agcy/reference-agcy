@@ -1,0 +1,54 @@
+{
+  "business": "Business",
+  "candidate": "Candidate",
+  "candidates": "Candidates",
+  "home-page": "Home",
+  "services": "Services",
+  "about-us": "About Us",
+  "resources": "Resources",
+  "blog": "Blog",
+  "&": "&",
+  "actions": {
+    "learn-more": "Learn More",
+    "view-all": "View All"
+  },
+
+  "case-study-label": "case study",
+  "case-study-title": "How Sydney's Government Transformed Workplace Collaboration with a 'Clubhouse' Model",
+  "case-study-action": {
+    "watch-video": "Watch Video"
+  },
+
+  "articles-title": "Recently Articles",
+  "article-1-title": "How to Use Your Resume to Tell a Story",
+  "article-2-title": "The 10 Best Global Cities for Digital Nomads",
+  "article-3-title": "How to End a Networking Conversation Tactfully",
+
+  "footer": {
+    "navigation": "Navigation",
+    "follow-us": "Follow Us",
+    "about": "About",
+    "projects": "Projects",
+    "what-we-do": "What We Do",
+    "press": "Press",
+    "jobs": "Jobs",
+    "egypt": {
+      "title": "Egypt",
+      "phone": "+20 1000186400",
+      "address-1": "Building name, street office no.8",
+      "address-2": "Maadi, Cairo"
+    },
+    "uae": {
+      "title": "UAE",
+      "phone": "+971507166009",
+      "address-1": "Building name, Al-Jaddaf office no.8",
+      "address-2": "Jaddaf, Dubai"
+    },
+    "ksa": {
+      "title": "Saudi Arabia",
+      "phone": "+966597166009",
+      "address-1": "Building name, Al Olaya st office no.8",
+      "address-2": "Riyadh, KSA"
+    }
+  }
+}

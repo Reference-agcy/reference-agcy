@@ -1,0 +1,88 @@
+{
+  "hero": {
+    "subtitle": "A creative agency that lead and inspire",
+    "title": "Empowering People, Transforming Workplaces",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros..",
+    "submitResume": "Submit Resume"
+  },
+  "jobs": {
+    "tabs": {
+      "development": "Development",
+      "product": "Product",
+      "design": "Design"
+    },
+    "viewMore": "View More",
+    "noJobs": "No jobs available"
+  },
+  "resumeService": {
+    "title": "Submit Your Resume",
+    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.",
+    "submit": "Submit"
+  },
+  "recruitment": {
+    "title": "Our Recruitment Process",
+    "recruitmentProcess": [
+      {
+        "stage": "Stage 1",
+        "cards": [
+          {
+            "title": "Fully customizable",
+            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+          },
+          {
+            "title": "Fully customizable",
+            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+          }
+        ],
+        "title": "Your Growth Partner",
+        "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts Mix-and-match dozens of responsive elements to quickly configure.\n\nMix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts",
+        "button": {
+          "text": "Learn More",
+          "link": ""
+        }
+      },
+      {
+        "stage": "Stage 2",
+        "cards": [
+          {
+            "title": "Fully customizable",
+            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+          },
+          {
+            "title": "Fully customizable",
+            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+          },
+          {
+            "title": "Fully customizable",
+            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+          }
+        ],
+        "title": "Your Growth Partner",
+        "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts Mix-and-match dozens of responsive elements to quickly configure.\n\nMix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts",
+        "button": {
+          "text": "Learn More",
+          "link": ""
+        }
+      },
+      {
+        "stage": "Stage 3",
+        "cards": [
+          {
+            "title": "Fully customizable",
+            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+          },
+          {
+            "title": "Fully customizable",
+            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+          }
+        ],
+        "title": "Your Growth Partner",
+        "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts Mix-and-match dozens of responsive elements to quickly configure.\n\nMix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts",
+        "button": {
+          "text": "Learn More",
+          "link": ""
+        }
+      }
+    ]
+  }
+}

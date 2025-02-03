@@ -1,0 +1,14 @@
+{
+  "blog-route": "المدونة",
+  "header": {
+    "title": "مدونتنا",
+    "search-label": "ابحث عن اسم المقالة"
+  },
+  "popular-title": "المقالات الشهيرة",
+  "actions": {
+    "view-more": "عرض المزيد"
+  },
+  "recent-articles": "المقالات الأخيرة",
+  "popular-articles": "المقالات الشهيرة",
+  "no-posts-found": "لم يتم العثور على مقالات"
+}

@@ -1,0 +1,14 @@
+{
+  "blog-route": "Blog",
+  "header": {
+    "title": "Our Blog",
+    "search-label": "Search article name"
+  },
+  "popular-title": "Popular Articles",
+  "actions": {
+    "view-more": "View More"
+  },
+  "recent-articles": "Recent Articles",
+  "popular-articles": "Popular Articles",
+  "no-posts-found": "No Posts Found"
+}

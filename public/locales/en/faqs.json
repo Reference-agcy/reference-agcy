@@ -1,0 +1,47 @@
+{
+  "title": "Frequently Asked Questions",
+  "account-section-title": "My Account",
+  "account-section-desc": "Frequently asked question about my account",
+  "boxes": {
+    "account": {
+      "title": "My Account",
+      "description": "From how to setup your account to how to apply for a job"
+    },
+    "email": {
+      "title": "Email Campaigns",
+      "description": "Engage your contacts using the best mobile-friendly email design tools"
+    },
+    "academy": {
+      "title": "Jobify Academy",
+      "description": "Learn everything about client declaration and partner management"
+    }
+  },
+  "contact": {
+    "phone": {
+      "title": "+(632) 3892402",
+      "description": "Our 24/7 Customer Services"
+    },
+    "email": {
+      "title": "support@jobify.com",
+      "description": "Alternative way to get anwser faster"
+    },
+    "community": {
+      "title": "Jobify Community",
+      "description": "Our community ready to help you"
+    }
+  },
+  "faqs": {
+    "job-steps": {
+      "question": "How many steps to get a job?",
+      "answer": "Bibendum eu a pellentesque suspendisse at purus sit. Diam turpis arcu fringilla elit. Ridiculus odio lacus, ac bibendum vulputate. Pharetra, enim mi proin varius urna vel eu. Neque, velit et sed mattis malesuada aliquet nisl, pulvinar viverra. Massa tempus egestas nec id morbi ultrices morbi at."
+    },
+    "job-requirements": {
+      "question": "What do we need to apply for a job?",
+      "answer": "Bibendum eu a pellentesque suspendisse at purus sit. Diam turpis arcu fringilla elit. Ridiculus odio lacus, ac bibendum vulputate. Pharetra, enim mi proin varius urna vel eu. Neque, velit et sed mattis malesuada aliquet nisl, pulvinar viverra. Massa tempus egestas nec id morbi ultrices morbi at."
+    },
+    "cv-availability": {
+      "question": "Do we get cv from jobify?",
+      "answer": "Bibendum eu a pellentesque suspendisse at purus sit. Diam turpis arcu fringilla elit. Ridiculus odio lacus, ac bibendum vulputate. Pharetra, enim mi proin varius urna vel eu. Neque, velit et sed mattis malesuada aliquet nisl, pulvinar viverra. Massa tempus egestas nec id morbi ultrices morbi at."
+    }
+  }
+}
