@@ -31,7 +31,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to the server
-        uses: burnett01/rsync-deployments@5.2.3
+        uses: burnett01/rsync-deployments@7.0.2
         with:
           switches: -avzr --execlude=node_modules
           path: ./
