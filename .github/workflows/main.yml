@@ -48,8 +48,8 @@ jobs:
 
       - name: Install dependencies on the server
         run: |
-          ssh -v -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.REMOTE_USER }}@${{ secrets.SERVER_IP }} "cd ${{ secrets.REMOTE_PATH }} && npm install --production"
+          ssh -v -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.REMOTE_USER }}@${{ secrets.SERVER_IP }} "cd ${{ secrets.REMOTE_PATH }} && /root/.nvm/versions/node/v22.13.1/bin/npm install --production"
 
       - name: Reload project process
         run: |
-          ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa  ${{ secrets.REMOTE_USER }}@${{ secrets.SERVER_IP }} "pm2 reload ${{ secrets.PM2_PROJECT_NAME }}"
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa  ${{ secrets.REMOTE_USER }}@${{ secrets.SERVER_IP }} "/root/.nvm/versions/node/v22.13.1/bin/pm2 reload ${{ secrets.PM2_PROJECT_NAME }}"
