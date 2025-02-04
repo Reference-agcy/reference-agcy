@@ -42,8 +42,8 @@ jobs:
 
       - name: Install dependencies on the server
         run: |
-          ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "cd ${{ secrets.REMOTE_PATH }} && npm install --production"
+          ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} ${{ secrets.REMOTE_USER }}@${{ secrets.SERVER_IP }} "cd ${{ secrets.REMOTE_PATH }} && npm install --production"
 
       - name: Reload project process
         run: |
-          ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} ${{ secrets.REMOTE_USER }}@${{ secrets.REMOTE_HOST }} "pm2 reload ${{ secrets.PM2_PROJECT_NAME }}"
+          ssh -o StrictHostKeyChecking=no -i ${{ secrets.SSH_PRIVATE_KEY }} ${{ secrets.REMOTE_USER }}@${{ secrets.SERVER_IP }} "pm2 reload ${{ secrets.PM2_PROJECT_NAME }}"
