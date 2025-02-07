@@ -33,17 +33,17 @@ const OTHER_PAGES: {
     text: "home-page",
   },
   {
-    href: "/blog-home",
-    text: "blog",
-  },
-  {
     href: "/about-us",
     text: "about-us",
   },
   {
-    href: "/faqs",
-    text: "resources",
+    href: "/blog-home",
+    text: "blog",
   },
+  // {
+  //   href: "/faqs",
+  //   text: "resources",
+  // },
 ];
 
 export default Others;
