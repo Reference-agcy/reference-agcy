@@ -67,5 +67,5 @@
 */
 
 .richTextContainer img {
-  @apply h-auto max-h-[28.75rem] w-full rounded-2xl object-cover;
+  @apply aspect-[2.35/1] w-full rounded-2xl object-cover;
 }
