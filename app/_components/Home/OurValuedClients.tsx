@@ -14,7 +14,7 @@ function OurValuedClients({ t }: OurValuedClientsProps) {
   return (
     <section className="flex flex-col gap-8">
       <h2 className="text-2xl font-bold text-gray-900 xs:text-3xl sm:text-[2rem]">
-        {t("home:our-valued-clients")}
+        {t("home:sections.our-valued-clients")}
       </h2>
 
       <div className="flex flex-wrap items-center justify-center gap-[2.875rem] px-8 py-6 [&_img]:max-h-[4.725rem] [&_img]:max-w-[12.5rem]">
