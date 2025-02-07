@@ -20,9 +20,9 @@ export const Footer = async ({ locale }: { locale: string }) => {
             <div className="flex flex-wrap gap-6 text-sm font-bold text-gray-300 2xl:text-lg">
               <Link href="/">{t("common:home-page")}</Link>
               <Link href="/candidate">{t("common:candidate")}</Link>
-              <Link href="/blog-home">{t("common:blog")}</Link>
               <Link href="/about-us">{t("common:about-us")}</Link>
-              <Link href="/faqs">{t("common:resources")}</Link>
+              <Link href="/blog-home">{t("common:blog")}</Link>
+              {/* <Link href="/faqs">{t("common:resources")}</Link> */}
             </div>
             <h3 className="text-lg font-medium text-gray-900 dark:text-gray-800 2xl:text-2xl">
               {t("common:footer.follow-us")}
