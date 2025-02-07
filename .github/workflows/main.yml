@@ -1,0 +1,55 @@
+name: Github actions pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: Production
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Write SSH private key to file
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+    
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate .env file
+        run: |
+          echo "ZOHO_CLIENT_ID=${{ secrets.ZOHO_CLIENT_ID }}" > .env
+          echo "ZOHO_CLIENT_SECRET=${{ secrets.ZOHO_CLIENT_SECRET }}" >> .env
+          echo "ZOHO_REDIRECT_URI=${{ secrets.ZOHO_REDIRECT_URI }}" >> .env
+          echo "NEXT_PUBLIC_BASE_URL=${{ secrets.NEXT_PUBLIC_BASE_URL }}" >> .env
+          echo "JWT_SECRET=${{ secrets.JWT_SECRET }}" >> .env
+          echo "DATABASE_URL=${{ secrets.DATABASE_URL }}" >> .env
+          echo "PORT=${{ secrets.PORT }}" >> .env
+          
+      - name: Build
+        run: npm run build
+
+      - name: Deploy to the server
+        uses: burnett01/rsync-deployments@7.0.2
+        with:
+          switches: -avzr --exclude=node_modules
+          path: ./
+          remote_path: ${{ secrets.REMOTE_PATH }}
+          remote_host: ${{ secrets.SERVER_IP }}
+          remote_user: ${{ secrets.REMOTE_USER }}
+          remote_key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Install dependencies on the server
+        run: |
+          ssh -v -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa ${{ secrets.REMOTE_USER }}@${{ secrets.SERVER_IP }} "cd ${{ secrets.REMOTE_PATH }} && /root/.nvm/versions/node/v22.13.1/bin/npm install --production"
+
+      - name: Reload project process
+        run: |
+          ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa  ${{ secrets.REMOTE_USER }}@${{ secrets.SERVER_IP }} "/root/.nvm/versions/node/v22.13.1/bin/pm2 reload ${{ secrets.PM2_PROJECT_NAME }}"
