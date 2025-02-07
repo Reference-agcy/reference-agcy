@@ -5,10 +5,11 @@ import common from "./common.json";
 import faqs from "./faqs.json";
 import home from "./home.json";
 import jobs from "./jobs.json";
+import services from "./services.json";
 
 export const en = {
   faqs,
-
+  services,
   common,
   home,
   jobs,

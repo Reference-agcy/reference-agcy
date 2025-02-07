@@ -1,0 +1,135 @@
+{
+  "how-it-works": "How It Works",
+  "benefits": "Benefits",
+  "start-now": "Start Now",
+  "part-time-outsource": {
+    "title": "Part-Time Outsource",
+    "benefits": {
+      "title": "Live your best life",
+      "description": "Hire skilled part-time professionals flexibly and cost-effectively with our seamless outsourcing solutions.",
+      "1": {
+        "title": "Cost-Effective Staffing"
+      },
+      "2": {
+        "title": "Access to Expertise"
+      },
+      "3": {
+        "title": "Faster Hiring Process"
+      },
+      "4": {
+        "title": "Risk Mitigation"
+      }
+    },
+    "hero": {
+      "top_paragraph": "Flexible Talent, On-Demand<br/>Providing skilled part-time professionals through seamless outsourcing solutions tailored to your business needs.",
+      "bottom_paragraph": "We specialize in providing businesses with highly skilled part-time professionals through seamless outsourcing solutions. Our flexible workforce ensures you get the right talent when you need it, without long-term commitments. Whether you require temporary support or project-based expertise, we help you scale efficiently and cost-effectively."
+    },
+    "how-it-works": {
+      "description": "It’s easy to get caught up in the work-from-home lifestyle and let unhealthy habits take over. It happens gradually as we relax in our home office environment. By creating better boundaries around your eating habits, you can help ensure that you avoid the remote work nutrition challenges that so many of us fight.<br /><br />If you're ready to take the leap into a remote or flexible job that better supports your overall well-being, we can help! Take the tour and discover all of the ways that a FlexJobs membership can support your remote career, from our database of scam-free jobs to our expert career coaching and more."
+    }
+  },
+  "full-time-outsource": {
+    "title": "Full-Time Outsource",
+    "benefits": {
+      "title": "Dedicated Professional Support",
+      "description": "Access dedicated full-time professionals through our comprehensive outsourcing solutions.",
+      "1": {
+        "title": "Dedicated Resources"
+      },
+      "2": {
+        "title": "Long-term Stability"
+      },
+      "3": {
+        "title": "Complete Integration"
+      },
+      "4": {
+        "title": "Cost Optimization"
+      }
+    },
+    "hero": {
+      "top_paragraph": "Full-Time Excellence<br/>Connect with dedicated professionals through our comprehensive outsourcing solutions.",
+      "bottom_paragraph": "Our full-time outsourcing service provides businesses with dedicated professionals who become an integral part of your team. We handle all aspects of employment while you focus on achieving your business objectives with reliable, committed talent."
+    },
+    "how-it-works": {
+      "description": "Our full-time outsourcing process ensures seamless integration of talented professionals into your organization. We manage everything from recruitment to ongoing support, creating a hassle-free experience for your business."
+    }
+  },
+  "hr-operations-outsource": {
+    "title": "HR Operations Outsource",
+    "benefits": {
+      "title": "Streamline Your HR",
+      "description": "Transform your HR operations with our comprehensive outsourcing solutions.",
+      "1": {
+        "title": "Compliance Assurance"
+      },
+      "2": {
+        "title": "Process Optimization"
+      },
+      "3": {
+        "title": "Cost Reduction"
+      },
+      "4": {
+        "title": "Expert Support"
+      }
+    },
+    "hero": {
+      "top_paragraph": "Expert HR Management<br/>Optimize your HR operations with our comprehensive outsourcing solutions.",
+      "bottom_paragraph": "Let us handle your HR operations while you focus on growing your business. Our team of experienced HR professionals ensures compliance, efficiency, and best practices in all aspects of human resource management."
+    },
+    "how-it-works": {
+      "description": "We take a systematic approach to managing your HR operations, implementing proven processes and leveraging technology to deliver efficient, compliant, and employee-friendly HR services."
+    }
+  },
+  "recruitment": {
+    "title": "Recruitment",
+    "benefits": {
+      "title": "Find Top Talent",
+      "description": "Access the best candidates through our comprehensive recruitment solutions.",
+      "1": {
+        "title": "Quality Candidates"
+      },
+      "2": {
+        "title": "Fast Hiring"
+      },
+      "3": {
+        "title": "Market Insights"
+      },
+      "4": {
+        "title": "Cost-Effective"
+      }
+    },
+    "hero": {
+      "top_paragraph": "Strategic Talent Acquisition<br/>Find the perfect candidates for your organization through our advanced recruitment solutions.",
+      "bottom_paragraph": "Our recruitment services combine industry expertise with advanced screening processes to connect you with top talent. We understand your business needs and culture to ensure the perfect match for your organization."
+    },
+    "how-it-works": {
+      "description": "Our recruitment process combines traditional expertise with modern tools and techniques to identify, assess, and secure the best talent for your organization."
+    }
+  },
+  "hr-consultation": {
+    "title": "HR Consultation",
+    "benefits": {
+      "title": "Expert HR Guidance",
+      "description": "Get professional HR advice and solutions tailored to your business needs.",
+      "1": {
+        "title": "Strategic Planning"
+      },
+      "2": {
+        "title": "Policy Development"
+      },
+      "3": {
+        "title": "Performance Management"
+      },
+      "4": {
+        "title": "Compliance Support"
+      }
+    },
+    "hero": {
+      "top_paragraph": "Strategic HR Solutions<br/>Expert guidance to optimize your human resources management and organizational development.",
+      "bottom_paragraph": "Our HR consultation services provide strategic guidance and practical solutions to help your organization thrive. We work closely with you to develop effective HR strategies, policies, and practices that align with your business objectives."
+    },
+    "how-it-works": {
+      "description": "Our consultative approach begins with understanding your unique challenges and objectives. We then develop tailored solutions and provide ongoing support to ensure successful implementation and sustainable results."
+    }
+  }
+}

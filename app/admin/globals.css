@@ -46,6 +46,7 @@ body {
   pointer-events: all !important;
   overflow-x: hidden;
   background: rgb(var(--gray-100));
+  overflow-x: hidden;
 }
 .container {
   display: flex;
@@ -64,21 +65,24 @@ body:lang(ar) {
   direction: rtl;
 }
 
-::-webkit-scrollbar {
-  @apply h-2 w-2;
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    @apply h-2 w-2;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply rounded-xl bg-none;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-xl bg-primary-500;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-500;
+  }
 }
 
-::-webkit-scrollbar-track {
-  @apply rounded-xl bg-none;
-}
-
-::-webkit-scrollbar-thumb {
-  @apply rounded-xl bg-primary-500;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  @apply bg-primary-500;
-}
 .h-screen {
   @apply h-[100dvh];
 }

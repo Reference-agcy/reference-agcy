@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import SingleServiceWithImage from "../Common/SingleServiceWithImage";
 import { Button } from "../ui/button";
 import SingleService from "./SingleService";
@@ -20,12 +21,14 @@ const Services = ({ t }: Props) => {
         dataAos="fade-left"
         imageUrl={techConsaltantImg.src}
         className="col-span-2 row-span-2 lg:col-span-1 max-lg:[&_img]:object-[50%_30%]"
-        title={t("home:sections.tech-consultation.title")}
-        text={t("home:sections.tech-consultation.description")}
+        title={t("home:sections.recruitment.title")}
+        text={t("home:sections.recruitment.description")}
         btn={
-          <Button className="w-fit bg-secondary-500">
-            {t("home:actions.learn-more")}
-          </Button>
+          <Link href="/business/recruitment">
+            <Button className="w-fit bg-secondary-500">
+              {t("home:actions.learn-more")}
+            </Button>
+          </Link>
         }
         hasGradient={false}
       />
@@ -40,12 +43,14 @@ const Services = ({ t }: Props) => {
           <p className="text-base text-gray-600 2xl:text-xl">
             {t("home:sections.part-time.description")}
           </p>
-          <Button
-            className="text-white dark:bg-[#313549] dark:hover:bg-white dark:hover:text-gray-0"
-            variant={"secondary"}
-          >
-            {t("home:actions.learn-more")}
-          </Button>
+          <Link href="/business/part-time-outsource">
+            <Button
+              className="text-white dark:bg-[#313549] dark:hover:bg-white dark:hover:text-gray-0"
+              variant={"secondary"}
+            >
+              {t("home:actions.learn-more")}
+            </Button>
+          </Link>
         </div>
         <div className="w-full max-w-[30rem] self-end max-md:hidden 2xl:pt-6">
           <Image
@@ -61,7 +66,9 @@ const Services = ({ t }: Props) => {
         title={t("home:sections.full-time.title")}
         text={t("home:sections.full-time.description")}
         actionBtn={
-          <Button className="w-fit">{t("home:actions.learn-more")}</Button>
+          <Link href="/business/full-time-outsource">
+            <Button className="w-fit">{t("home:actions.learn-more")}</Button>
+          </Link>
         }
       />
       <SingleService
@@ -70,12 +77,14 @@ const Services = ({ t }: Props) => {
         title={t("home:sections.hr-operations.title")}
         text={t("home:sections.hr-operations.description")}
         actionBtn={
-          <Button
-            variant={"secondary"}
-            className="w-fit dark:bg-gray-100 dark:text-white"
-          >
-            {t("home:actions.learn-more")}
-          </Button>
+          <Link href="/business/hr-operations-outsource">
+            <Button
+              variant={"secondary"}
+              className="w-fit dark:bg-gray-100 dark:text-white"
+            >
+              {t("home:actions.learn-more")}
+            </Button>
+          </Link>
         }
       />
       <SingleServiceWithImage
@@ -84,7 +93,11 @@ const Services = ({ t }: Props) => {
         className="col-span-2 gap-6 py-12 lg:col-span-3"
         title={t("home:sections.hr-consultation.title")}
         text={t("home:sections.hr-consultation.description")}
-        btn={<Button className="w-fit">{t("home:actions.learn-more")}</Button>}
+        btn={
+          <Link href="/business/hr-consultation">
+            <Button className="w-fit">{t("home:actions.learn-more")}</Button>
+          </Link>
+        }
         hasGradient={true}
       />
     </div>
