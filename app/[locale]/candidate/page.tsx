@@ -16,7 +16,7 @@ async function Candidate({
   const { t } = await initTranslations(locale);
 
   return (
-    <div className="animate-fade-up overflow-hidden bg-gray-100">
+    <div className="animate-fade-up bg-gray-100">
       <div className="tracking container space-y-6 pb-6 max-md:space-y-12">
         <Hero
           title={t("candidate:hero.title")}

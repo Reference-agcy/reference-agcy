@@ -15,7 +15,7 @@ interface PageProps {
 export default async function Page({ params: { locale } }: PageProps) {
   const { t } = await initTranslations(locale || defaultLocale);
   return (
-    <div className="animate-fade-up overflow-hidden bg-gray-100">
+    <div className="animate-fade-up bg-gray-100">
       <div className="container space-y-6 pb-14 max-md:space-y-12">
         <Hero
           title={t("home:hero.title")}
