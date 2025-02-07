@@ -1,18 +1,14 @@
 import initTranslations from "@app/[locale]/i18n";
-import React from "react";
-import { cookies } from "next/headers";
 import Link from "next/link";
 import { FaDribbble } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { FiTwitter } from "react-icons/fi";
 import { RiFacebookCircleLine } from "react-icons/ri";
 import { TbBrandBehance } from "react-icons/tb";
-import { defaultLocale } from "@/constants";
 
-export const Footer = async () => {
-  const { t } = await initTranslations(
-    cookies().get("NEXT_LOCALE")?.value || defaultLocale,
-  );
+export const Footer = async ({ locale }: { locale: string }) => {
+  const { t } = await initTranslations(locale);
+
   return (
     <footer className="bg-gray-0">
       <div className="container">

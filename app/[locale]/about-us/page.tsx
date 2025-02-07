@@ -5,12 +5,9 @@ import Testimonials from "@app/_components/About/Testimonials";
 import ScreenHeader from "@app/_components/Common/ScreenHeader";
 import { defaultLocale } from "@/constants";
 
-type AboutUsProps = {
-  params: { locale: string };
-};
-
-async function AboutUs({ params: { locale } }: AboutUsProps) {
-  const { t } = await initTranslations(locale || defaultLocale);
+async function AboutUs({ params: { locale } }: { params: { locale: string } }) {
+  const lang = locale || defaultLocale;
+  const { t } = await initTranslations(lang);
 
   return (
     <main className="animate-fade-left">

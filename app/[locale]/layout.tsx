@@ -61,7 +61,7 @@ export default function RootLayout({
             <AosProvider>
               <NavBar />
               {children}
-              <Footer />
+              <Footer locale={locale} />
               <ToastContainer />
               <div id="portal"></div>
             </AosProvider>
