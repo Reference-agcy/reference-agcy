@@ -2,12 +2,12 @@ import initTranslations from "../i18n";
 import { cookies } from "next/headers";
 import ScreenHeader from "@app/_components/Common/ScreenHeader";
 import ContactInfo from "@app/_components/Faqs/ContactInfo";
+import FaqsAccordion from "@app/_components/Faqs/FaqsAccordion";
 import ThreeBoxes from "@app/_components/Faqs/ThreeBoxes";
 import { defaultLocale } from "@/constants";
-import FaqsAccordion from "@app/_components/Faqs/FaqsAccordion";
 
-async function AboutUs() {
-  const lang = cookies().get("lang")?.value || defaultLocale;
+async function Faqs() {
+  const lang = cookies().get("NEXT_LOCALE")?.value || defaultLocale;
   const { t } = await initTranslations(lang);
   return (
     <main className="animate-fade-left">
@@ -33,4 +33,4 @@ async function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Faqs;
