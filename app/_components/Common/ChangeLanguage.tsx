@@ -1,6 +1,6 @@
 "use client";
 
-import {  setCookie } from "cookies-next";
+import { setCookie } from "cookies-next";
 import Image from "next/image";
 import { useParams, useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
@@ -9,7 +9,6 @@ import UAEFlagIcon from "@/public/images/icons/uea-flag.svg";
 import UKFlagIcon from "@/public/images/icons/uk-flag.svg";
 
 const ChangeLAngBtn = () => {
-  
   const { locale } = useParams();
   const currentLocale = locale;
   const router = useRouter();
@@ -26,7 +25,7 @@ const ChangeLAngBtn = () => {
             currentPathname.replace(`/${currentLocale}`, `/${newLocale}`),
           );
         }
-        setCookie("lang", newLocale);
+        setCookie("NEXT_LOCALE", newLocale);
         router.refresh();
       }}
     >
