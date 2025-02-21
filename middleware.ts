@@ -11,7 +11,7 @@ function isAdminAuthenticated(request: NextRequest) {
   return Boolean(request.cookies.get("adminToken")?.value);
 }
 
-const zohoPagesRoutes = ["/candidate", "/job-openings"];
+// const zohoPagesRoutes = ["/candidate", "/job-openings"];
 
 export async function middleware(request: NextRequest) {
   if (request.nextUrl.pathname.includes("api")) {
@@ -40,16 +40,16 @@ export async function middleware(request: NextRequest) {
       : "";
   const route = langPrefix ? `/${segments.slice(2).join("/")}` : pathname;
 
-  if (
-    !request.cookies.get("zoho_refresh_token")?.value &&
-    zohoPagesRoutes.some((r) => route === r || route.startsWith(`${r}`))
-  ) {
-    return NextResponse.redirect(
-      new URL(
-        `https://accounts.zoho.com/oauth/v2/auth?scope=ZohoRecruit.modules.ALL,ZohoRecruit.settings.ALL&client_id=${process.env.ZOHO_CLIENT_ID}&response_type=code&access_type=offline&redirect_uri=${process.env.ZOHO_REDIRECT_URI}`,
-      ),
-    );
-  }
+  // if (
+  //   !request.cookies.get("zoho_refresh_token")?.value &&
+  //   zohoPagesRoutes.some((r) => route === r || route.startsWith(`${r}`))
+  // ) {
+  //   return NextResponse.redirect(
+  //     new URL(
+  //       "https://accounts.zoho.com/oauth/v2/auth?scope=ZohoRecruit.modules.ALL,ZohoRecruit.settings.ALL&client_id=1000.25HXCEI168QQQ61A7WJTM6GW3AOO1P&response_type=code&access_type=offline&redirect_uri=http://159.65.163.214/callback",
+  //     ),
+  //   );
+  // }
 
   const protectedRoutes = ["/profile"];
   const authRoutes = ["/login"];
