@@ -4,6 +4,7 @@ import { NextResponse } from "next/server";
 
 const prisma = new PrismaClient();
 
+export const dynamic = "force-dynamic";
 export async function GET(request: Request) {
   try {
     // Extract the JWT token from the Authorization header
