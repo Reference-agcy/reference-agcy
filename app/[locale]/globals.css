@@ -56,13 +56,17 @@ form {
   padding: 0.5rem;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-size: 1rem;
   color: rgb(var(--gray-500));
   pointer-events: all !important;
   overflow-x: hidden;
   background: rgb(var(--gray-100));
-  overflow-x: hidden;
 }
 .container {
   display: flex;
