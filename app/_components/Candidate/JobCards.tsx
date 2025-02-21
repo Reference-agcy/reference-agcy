@@ -2,7 +2,7 @@ import Link from "next/link";
 import { IoMdArrowForward } from "react-icons/io";
 import JobCard from "../Common/JobCard";
 import { job } from "@/@types/jobs";
-import { getJobs } from "@app/_lib/apiJobs";
+// import { getJobs } from "@app/_lib/apiJobs";
 import { cn } from "@app/_lib/utils";
 
 interface Props {
