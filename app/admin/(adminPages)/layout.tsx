@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { RiBloggerFill } from "react-icons/ri";
+import { TbPasswordUser } from "react-icons/tb";
 import CustomSidebar from "@app/_components/Admin/Layout/CustomSidebar";
 import Header from "@app/_components/Admin/Layout/Header";
 
@@ -24,7 +26,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         />
         <div className="flex flex-1 flex-col gap-8 py-6 max-md:w-full">
           <Header toggleSidebar={toggleSidebar} />
-          <main>{children}</main>
+          <main className="grow">{children}</main>
         </div>
       </div>
     </QueryClientProvider>
@@ -34,6 +36,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 const links = [
   {
     url: "/admin/blog",
-    title: "blog",
+    title: "Blog",
+    Icon: RiBloggerFill,
+  },
+  {
+    url: "/admin/change-password",
+    title: "Change Password",
+    Icon: TbPasswordUser,
   },
 ];
