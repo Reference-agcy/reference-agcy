@@ -1,7 +1,10 @@
 import initTranslations from "@app/[locale]/i18n";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
+import RecentArticles from "@app/_components/Common/RecentArticles";
 import RichTextRenderer from "@app/_components/Common/RichTextRenderer";
 import ScreenHeader from "@app/_components/Common/ScreenHeader";
+import Spinner from "@app/_components/spinner";
 import { getPost } from "@app/_lib/apiPost";
 import { removeHTMLTags } from "@app/_lib/removeHTMLTags";
 import { truncate } from "@app/_lib/truncate";
@@ -43,8 +46,24 @@ export default async function SinglePost({ params }: SinglePostProps) {
           },
         ]}
       />
-      <div className="container mb-[2.625rem] min-h-[40dvh]">
+      <div className="container mb-[2.625rem] flex min-h-[40dvh] flex-col gap-14">
         <RichTextRenderer content={post.content} />
+
+        <Suspense
+          fallback={
+            <div className="col-span-full flex justify-center px-8 py-1">
+              <Spinner />
+            </div>
+          }
+        >
+          <RecentArticles
+            t={t}
+            viewAllLink={{
+              href: "/blog",
+              title: t("common:actions.view-all"),
+            }}
+          />
+        </Suspense>
       </div>
     </article>
   );
