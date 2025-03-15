@@ -9,6 +9,7 @@ import Services from "@app/_components/Home/Services";
 import Spinner from "@app/_components/spinner";
 import { Button } from "@app/_components/ui/button";
 import { defaultLocale } from "@/constants";
+import LINKS from "@/public/data/links.json";
 
 interface PageProps {
   params: { locale: string };
@@ -31,7 +32,7 @@ export default async function Page({ params: { locale } }: PageProps) {
         />
         <Services t={t} />
         <OurValuedClients t={t} />
-        <CaseStudy t={t} />
+        <CaseStudy t={t} videoUrl={LINKS.videos.business || undefined} />
         <Suspense
           fallback={
             <div className="col-span-full flex justify-center px-8 py-1">

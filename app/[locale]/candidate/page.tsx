@@ -47,7 +47,7 @@ async function Candidate({
           hasGradient={true}
         />
         <RecruitmentProcess t={t} />
-        <CaseStudy t={t} />
+        <CaseStudy t={t} videoUrl={LINKS.videos.candidate || undefined} />
         <RecentArticles t={t} />
       </div>
     </div>
