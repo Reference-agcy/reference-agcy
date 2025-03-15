@@ -1,6 +1,7 @@
 import initTranslations from "./i18n";
 import { Suspense } from "react";
 import CaseStudy from "@app/_components/Common/CaseStudy";
+import ContactZohoForm from "@app/_components/Common/ContactZohoForm";
 import Hero from "@app/_components/Common/Hero";
 import RecentArticles from "@app/_components/Common/RecentArticles";
 import OurValuedClients from "@app/_components/Home/OurValuedClients";
@@ -40,6 +41,7 @@ export default async function Page({ params: { locale } }: PageProps) {
         >
           <RecentArticles t={t} />
         </Suspense>
+        <ContactZohoForm />
       </div>
     </div>
   );
