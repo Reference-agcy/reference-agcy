@@ -2,26 +2,10 @@
   "hero-text": "A platform that provides tens of thousands of job vacancies for you",
   "hero-alt": "about us image",
   "values": {
-    "high-quality-jobs": {
-      "title": "High Quality Jobs",
-      "description": "We help people find professional remote and flexible jobs in 50+ career fields, entry-level to executive.",
-      "link": "Explore The Jobs"
-    },
-    "company-research": {
-      "title": "Company Researched for You",
-      "description": "Our expert team works tirelessly to find and screen the best remote jobs, and to provide information on each.",
-      "link": "Company Research"
-    },
-    "quality-resources": {
-      "title": "High Quality Resources",
-      "description": "We offer great resources to provide you support, guidance, and tools so you can land the remote job you want.",
-      "link": "Job Search Resources"
-    }
+    "title": "Our Values",
+    "description": "We are committed to providing the best service to our customers. We are always looking for ways to improve our platform and make it easier for you to find the job you want."
   },
   "testimonials": {
-    "title": "Success Stories",
-    "description": "Thank you for keeping me up to date, I appreciate it all the recruitment agencies I've been dealing with have not been anywhere near as good with getting back to me",
-    "name": "John Doe",
-    "position": "Product Manager at Shopify"
+    "title": "Success Stories"
   }
 }
