@@ -1,4 +1,5 @@
 import initTranslations from "@app/[locale]/i18n";
+import ContactZohoForm from "@app/_components/Common/ContactZohoForm";
 import BenefitsSection from "@app/_components/Services/BenefitsSection";
 import Container from "@app/_components/Services/Container";
 import Header from "@app/_components/Services/Header";
@@ -39,6 +40,7 @@ async function HRConsultation({ params: { locale } }: HRConsultationProps) {
           t={t}
           description={t("services:hr-consultation.how-it-works.description")}
         />
+        <ContactZohoForm />
       </Container>
     </PageContainer>
   );
