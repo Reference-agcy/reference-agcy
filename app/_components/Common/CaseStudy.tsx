@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import { FaPlay } from "react-icons/fa";
+import VideoDialog from "./VideoDialog";
 import caseStudyImg from "@/public/images/home/case-study.jpg";
 
 interface Props {
   t: (key: string) => string;
+  videoUrl?: string;
 }
-const CaseStudy = ({ t }: Props) => {
+const CaseStudy = ({ t, videoUrl }: Props) => {
   return (
     <div className="grid gap-10 lg:grid-cols-[auto_1fr]">
       <div
@@ -27,12 +28,7 @@ const CaseStudy = ({ t }: Props) => {
           src={caseStudyImg}
           alt="case study"
         />
-        <button
-          className="absolute left-1/2 top-1/2 z-10 flex aspect-square w-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white text-lg text-gray-300 after:absolute after:z-[-1] after:h-full after:w-full after:animate-ping after:rounded-full after:bg-primary-500"
-          aria-label={t("common:case-study-action.watch-video")}
-        >
-          <FaPlay />
-        </button>
+        <VideoDialog videoUrl={videoUrl} />
       </div>
     </div>
   );
