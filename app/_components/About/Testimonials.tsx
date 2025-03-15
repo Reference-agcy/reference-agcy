@@ -1,21 +1,14 @@
 "use client";
 
 import "swiper/css";
-import React from "react";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { Autoplay, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import testimonialImg from "@/public/images/about/testimonial.jpg";
+import testimonials from "@/public/data/testimonials.json";
 
 const Testimonials = () => {
   const { t } = useTranslation("about");
-  const testimonials = Array(6).fill({
-    description: t("testimonials.description"),
-    img: testimonialImg,
-    name: t("testimonials.name"),
-    position: t("testimonials.position"),
-  });
 
   return (
     <section className="pb-14">
@@ -52,7 +45,7 @@ const Testimonials = () => {
           }}
         >
           {testimonials.map((testimonial, index) => (
-            <SwiperSlide className="" key={index}>
+            <SwiperSlide key={index}>
               <div
                 data-aos="fade-up"
                 data-aos-delay={(index % 4) * 100}
@@ -62,8 +55,10 @@ const Testimonials = () => {
                 <div className="mt-6 flex items-center gap-4">
                   <Image
                     className="size-10 rounded-full object-cover"
-                    src={testimonial.img}
+                    src={testimonial.image}
                     alt={testimonial.name}
+                    width={40}
+                    height={40}
                   />
                   <div>
                     <h3 className="font-bold text-gray-900 2xl:text-lg">
