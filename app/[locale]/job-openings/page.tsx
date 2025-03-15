@@ -3,6 +3,7 @@ import ScreenHeader from "@app/_components/Common/ScreenHeader";
 import Categories from "@app/_components/JopOpening/Categories";
 import Filters from "@app/_components/JopOpening/Filters";
 import JobsList from "@app/_components/JopOpening/JobsList";
+import ZohoJobs from "@app/_components/JopOpening/ZohoJobs";
 
 async function JopOpenings({
   params,
@@ -27,7 +28,8 @@ async function JopOpenings({
           <Categories />
           <div className="space-y-6">
             <Filters />
-            <JobsList />
+            {/* <JobsList /> */}
+            <ZohoJobs />
           </div>
         </div>
       </div>
