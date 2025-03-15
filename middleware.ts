@@ -14,15 +14,18 @@ function isAdminAuthenticated(request: NextRequest) {
 // const zohoPagesRoutes = ["/candidate", "/job-openings"];
 
 export async function middleware(request: NextRequest) {
-  if (request.nextUrl.pathname.includes("api")) {
+  const { pathname } = request.nextUrl;
+
+  // Protect change password route
+  if (pathname.includes("api")) {
     const unauthorizedRoutes = ["/api/auth/login", "/api"];
     const unauthorizedGETOnlyRoutes = ["/api/posts", "/api/jobs"];
-    if (unauthorizedRoutes.includes(request.nextUrl.pathname)) {
+    if (unauthorizedRoutes.includes(pathname)) {
       return NextResponse.next();
     } else if (
-      (unauthorizedGETOnlyRoutes.includes(request.nextUrl.pathname) ||
-        request.nextUrl.pathname.startsWith("/api/posts") ||
-        request.nextUrl.pathname.startsWith("/api/jobs")) &&
+      (unauthorizedGETOnlyRoutes.includes(pathname) ||
+        pathname.startsWith("/api/posts") ||
+        pathname.startsWith("/api/jobs")) &&
       request.method === "GET"
     ) {
       return NextResponse.next();
@@ -30,8 +33,6 @@ export async function middleware(request: NextRequest) {
       return auth(request);
     }
   }
-
-  const { pathname } = request.nextUrl;
 
   const segments = pathname.split("/");
   const langPrefix =
