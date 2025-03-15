@@ -4,7 +4,7 @@ export const html = `
    - Code lines with comments "Do not remove this code" are required for the form to work properly, make sure that you do not remove these lines of code. 
    - The Mandatory check script can be modified to suit your business needs. 
    - It is important that you test the modified form before going live. -->
-<div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: white;color: black;max-width: 1000px; padding-inline: 25px; margin: 0 auto;'>
+<div id='crmWebToEntityForm' class='zcwf_lblLeft crmWebToEntityForm' style='background-color: rgba(var(--gray-0));color: rgba(var(--gray-900));max-width: 1000px; padding-inline: 25px; margin: 0 auto;'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
 
@@ -26,21 +26,21 @@ export const html = `
     <style>
       .formsubmit.zcwf_button {
         border: 1px solid transparent !important;
-		border-radius: 100px;
-		padding: 6px 12px;
-		color: rgba(var(--gray-900));
-		font-size: 18px;
-		font-weight: 600;
-		cursor: pointer;
-		background-color: rgba(var(--primary-500)) !important;
-		height: 3.5rem;
-		padding-left: 1.5rem;
-        padding-right: 1.5rem;
+        border-radius: 100px;
+        padding: 6px 12px;
+        color: #111 !important;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        background-color: rgba(var(--primary-500)) !important;
+        height: 3.5rem;
+        padding-left: 1.5rem;
+            padding-right: 1.5rem;
       }
 	
 	  .formsubmit.zcwf_button:hover {
 	  	background-color: rgba(var(--primary-600)) !important;
-		color: rgba(var(--gray-900)) !important;
+		  color: #111 !important;
 	}
 
       #crmWebToEntityForm.zcwf_lblLeft {
@@ -80,13 +80,14 @@ export const html = `
       input[type=password],
       .zcwf_lblLeft .zcwf_col_fld textarea {
         width: 100%;
-        border: 1px solid #c0c6cc !important;
+        border: 1px solid rgba(var(--gray-150)) !important;
         resize: vertical;
         border-radius: 8px;
         float: left;
-		padding: 6px 12px;
-		outline: none;
-		font-size: 16px;
+        padding: 6px 12px;
+        outline: none;
+        font-size: 16px;
+        background-color: rgba(var(--gray-100));
       }
 
       .zcwf_lblLeft .zcwf_col_lab {
