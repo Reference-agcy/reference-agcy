@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Plus, SquareChevronRight } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 import { Button } from "@app/_components/ui/button";
 import FormModal from "../blog/BlogForm/FormModal";
@@ -14,6 +15,7 @@ export default function Header({
   toggleSidebar: () => void;
 }) {
   const [isOpenModal, setIsOpenModal] = useState(false);
+  const router = useRouter();
 
   const { data, isLoading } = useQuery({
     queryKey: ["user"],
@@ -35,11 +37,16 @@ export default function Header({
     },
   });
 
+  const handleAddBlog = () => {
+    router.push("/admin/blog");
+    setIsOpenModal(true);
+  };
+
   return (
     <header className="flex flex-wrap items-center justify-between gap-5 px-5">
       <div className="flex items-center gap-3">
         <button className="lg:hidden" onClick={toggleSidebar}>
-       <SquareChevronRight size={30} />
+          <SquareChevronRight size={30} />
         </button>
 
         <h1 className="text-3xl font-bold">
@@ -49,7 +56,7 @@ export default function Header({
 
       <Button
         className="!h-10 !w-auto rounded-[8px] !py-0 !text-sm font-bold"
-        onClick={() => setIsOpenModal(true)}
+        onClick={handleAddBlog}
       >
         Add Blog <Plus />
       </Button>
