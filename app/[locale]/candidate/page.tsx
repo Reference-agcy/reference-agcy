@@ -6,6 +6,7 @@ import Hero from "@app/_components/Common/Hero";
 import RecentArticles from "@app/_components/Common/RecentArticles";
 import SingleServiceWithImage from "@app/_components/Common/SingleServiceWithImage";
 import { Button } from "@app/_components/ui/button";
+import LINKS from "@/public/data/links.json";
 
 async function Candidate({
   params,
@@ -23,7 +24,11 @@ async function Candidate({
           titleClassName="xl:text-4xl lg:text-2xl 2xl:text-[4.83rem] 2xl:leading-[5.5rem]"
           description={t("candidate:hero.description")}
           subtitle={t("candidate:hero.subtitle")}
-          actions={<Button>{t("candidate:hero.submitResume")}</Button>}
+          actions={
+            <a href={LINKS["submit-resume"]} target="_blank" rel="noreferrer">
+              <Button>{t("candidate:hero.submitResume")}</Button>
+            </a>
+          }
         />
         <Jobs t={t} />
         <SingleServiceWithImage
@@ -33,9 +38,11 @@ async function Candidate({
           title={t("candidate:resumeService.title")}
           text={t("candidate:resumeService.description")}
           btn={
-            <Button className="w-fit">
-              {t("candidate:resumeService.submit")}
-            </Button>
+            <a href={LINKS["submit-resume"]} target="_blank" rel="noreferrer">
+              <Button className="w-fit">
+                {t("candidate:resumeService.submit")}
+              </Button>
+            </a>
           }
           hasGradient={true}
         />
