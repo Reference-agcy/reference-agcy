@@ -1,4 +1,4 @@
-import { Button } from "@app/_components/ui/button";
+// import { Button } from "@app/_components/ui/button";
 import { cn } from "@app/_lib/utils";
 
 interface Props {
@@ -6,10 +6,6 @@ interface Props {
     title: string;
     description: string;
     stage: string;
-    button: {
-      text: string;
-      link: string;
-    };
     cards: {
       title: string;
       description: string;
@@ -57,9 +53,9 @@ export default function SingleStage({ process, isReversed }: Props) {
           {process.description}
         </p>
 
-        <Button className="min-h-[42px] min-w-[140px]">
+        {/* <Button className="min-h-[42px] min-w-[140px]">
           {process.button.text}
-        </Button>
+        </Button> */}
       </div>
     </div>
   );
