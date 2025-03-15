@@ -1,10 +1,7 @@
 import initTranslations from "@app/[locale]/i18n";
 import Link from "next/link";
-import { FaDribbble } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
-import { FiTwitter } from "react-icons/fi";
 import { RiFacebookCircleLine } from "react-icons/ri";
-import { TbBrandBehance } from "react-icons/tb";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
 
 export const Footer = async ({ locale }: { locale: string }) => {
   const { t } = await initTranslations(locale);
@@ -12,7 +9,7 @@ export const Footer = async ({ locale }: { locale: string }) => {
   return (
     <footer className="bg-gray-0">
       <div className="container">
-        <div className="grid grid-cols-[25rem_1fr_1fr_1fr] gap-4 py-8 max-lg:grid-cols-2 max-sm:grid-cols-1">
+        <div className="flex flex-wrap justify-between gap-4 py-8">
           <div className="space-y-10">
             <h3 className="text-lg font-medium text-gray-900 dark:text-gray-800 2xl:text-2xl">
               {t("common:footer.navigation")}
@@ -23,26 +20,6 @@ export const Footer = async ({ locale }: { locale: string }) => {
               <Link href="/about-us">{t("common:about-us")}</Link>
               <Link href="/blog-home">{t("common:blog")}</Link>
               {/* <Link href="/faqs">{t("common:resources")}</Link> */}
-            </div>
-            <h3 className="text-lg font-medium text-gray-900 dark:text-gray-800 2xl:text-2xl">
-              {t("common:footer.follow-us")}
-            </h3>
-            <div className="flex flex-wrap gap-6 text-xl font-bold text-gray-300 2xl:text-2xl">
-              <Link href="/">
-                <RiFacebookCircleLine />
-              </Link>
-              <Link href="/">
-                <FiTwitter />
-              </Link>
-              <Link href="/">
-                <FaInstagram />
-              </Link>
-              <Link href="/">
-                <FaDribbble />
-              </Link>
-              <Link href="/" className="">
-                <TbBrandBehance className="" />
-              </Link>
             </div>
           </div>
           <div className="space-y-8 text-gray-300">
@@ -55,7 +32,7 @@ export const Footer = async ({ locale }: { locale: string }) => {
               <p>{t("common:footer.egypt.address-2")}</p>
             </div>
           </div>
-          <div className="space-y-8 text-gray-300">
+          {/* <div className="space-y-8 text-gray-300">
             <h3 className="text-lg font-medium text-gray-900 dark:text-gray-800 2xl:text-2xl">
               {t("common:footer.uae.title")}
             </h3>
@@ -73,6 +50,19 @@ export const Footer = async ({ locale }: { locale: string }) => {
             <div>
               <p>{t("common:footer.ksa.address-1")}</p>
               <p>{t("common:footer.ksa.address-2")}</p>
+            </div>
+          </div> */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-medium text-gray-900 dark:text-gray-800 2xl:text-2xl">
+              {t("common:footer.follow-us")}
+            </h3>
+            <div className="flex flex-wrap gap-4 text-xl font-bold text-gray-300 2xl:text-2xl">
+              <Link href="/">
+                <RiFacebookCircleLine size={28} />
+              </Link>
+              <Link href="/">
+                <TiSocialLinkedinCircular size={28} />
+              </Link>
             </div>
           </div>
         </div>
