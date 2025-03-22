@@ -1,5 +1,6 @@
 import initTranslations from "./i18n";
 import { Suspense } from "react";
+import Link from "next/link";
 import CaseStudy from "@app/_components/Common/CaseStudy";
 import ContactZohoForm from "@app/_components/Common/ContactZohoForm";
 import Hero from "@app/_components/Common/Hero";
@@ -25,8 +26,14 @@ export default async function Page({ params: { locale } }: PageProps) {
           subtitle={t("home:hero.subtitle")}
           actions={
             <div className="flex gap-4 max-lg:justify-center">
-              <Button variant={"secondary"}>{t("home:hero.learnMore")}</Button>
-              <Button>{t("home:hero.contactUs")}</Button>
+              <Link href="#services">
+                <Button variant={"secondary"}>
+                  {t("home:hero.learnMore")}
+                </Button>
+              </Link>
+              <Link href="#contact-form">
+                <Button>{t("home:hero.contactUs")}</Button>
+              </Link>
             </div>
           }
         />
