@@ -66,6 +66,7 @@ export const html = `
         word-wrap: break-word;
         padding: 0px 6px 10px;
         font-weight: bold;
+        text-align: center;
       }
 
       .zcwf_lblLeft.cpT_primaryBtn:hover {
@@ -82,9 +83,9 @@ export const html = `
         width: 100%;
         border: 1px solid rgba(var(--gray-150)) !important;
         resize: vertical;
-        border-radius: 8px;
+        border-radius: 12px;
         float: left;
-        padding: 6px 12px;
+        padding: 20px;
         outline: none;
         font-size: 16px;
         background-color: rgba(var(--gray-100));
@@ -173,7 +174,6 @@ export const html = `
         width: 90%;
         color: rgb(0, 0, 0);
         font-size: 12px;
-        font-family: Arial;
         display: inline-block;
         vertical-align: top;
         color: #313949;
@@ -248,7 +248,7 @@ export const html = `
       }
     </style>
 
-    <div class='zcwf_title' style="font-size: 28px;font-weight: 700;">Contact US</div>
+    <div class='zcwf_title' style="font-size: 36px;font-weight: 700;letter-spacing: -0.2px">Contact US</div>
     <div class='zcwf_row' style="display: flex;flex-direction: column;gap: 4px;">
       <div class='zcwf_col_lab' style='font-size:22px;'>
         <label for='Company'>Company<span style='color:red;'></span></label>
@@ -299,13 +299,13 @@ export const html = `
         <label for='Description'>Description</label>
       </div>
       <div class='zcwf_col_fld'>
-        <textarea style='font-family: Arial, sans-serif;' aria-multiline='true' id='Description' aria-required='false' aria-label='Description' name='Description'></textarea>
+        <textarea rows="4" aria-multiline='true' id='Description' aria-required='false' aria-label='Description' name='Description'></textarea>
         <div class='zcwf_col_help'></div>
       </div>
     </div>
     <div class='zcwf_row' style="display: flex;flex-direction: column;gap: 4px;">
       <div class='zcwf_col_lab'></div>
-      <div class='zcwf_col_fld'>
+      <div class='zcwf_col_fld' style="display: flex;justify-content: center;gap: 6px;">
         <input type='submit' id='formsubmit' role='button' class='formsubmit zcwf_button' value='Submit' aria-label='Submit' title='Submit'>
         <input type='reset' class='zcwf_button' role='button' name='reset' value='Reset' aria-label='Reset' title='Reset'>
       </div>
