@@ -23,7 +23,7 @@ function ContactZohoForm() {
     }
   }, []);
 
-  return <div id="contact-form" />;
+  return <div id="contact-form" className="!mt-20" />;
 }
 
 export default ContactZohoForm;
