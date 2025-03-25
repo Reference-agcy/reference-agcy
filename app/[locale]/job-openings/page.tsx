@@ -1,8 +1,5 @@
 import initTranslations from "../i18n";
 import ScreenHeader from "@app/_components/Common/ScreenHeader";
-import Categories from "@app/_components/JopOpening/Categories";
-import Filters from "@app/_components/JopOpening/Filters";
-// import JobsList from "@app/_components/JopOpening/JobsList";
 import ZohoJobs from "@app/_components/JopOpening/ZohoJobs";
 
 async function JopOpenings({
@@ -14,7 +11,7 @@ async function JopOpenings({
   const { t } = await initTranslations(locale);
 
   return (
-    <div data-aos="fade-in">
+    <div>
       <ScreenHeader
         title={`${t("jobs:jobs")} ${t("common:&")} ${t("jobs:vacancies")}`}
         breadcrumbs={[
@@ -24,14 +21,7 @@ async function JopOpenings({
         ]}
       />
       <div className="container pb-14">
-        <div className="grid gap-7 lg:grid-cols-[14rem_1fr]">
-          <Categories />
-          <div className="space-y-6">
-            <Filters />
-            {/* <JobsList /> */}
-            <ZohoJobs />
-          </div>
-        </div>
+        <ZohoJobs />
       </div>
     </div>
   );
