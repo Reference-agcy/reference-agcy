@@ -20,7 +20,7 @@ async function JopOpenings({
           { title: t("jobs:jobs") },
         ]}
       />
-      <div className="container pb-14">
+      <div className="pb-14">
         <ZohoJobs />
       </div>
     </div>
