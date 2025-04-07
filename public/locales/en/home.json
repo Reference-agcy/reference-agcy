@@ -13,11 +13,11 @@
       "title": "recruitment",
       "description": "We help you attract, assess, and hire top talent using AI-powered tools and structured recruitment strategies tailored to your business needs."
     },
-    "part-time": {
+    "full-time": {
       "title": "Full-Time Outsourcing",
       "description": "End-to-end workforce management for long-term roles—managed by us, embedded with you."
     },
-    "full-time": {
+    "part-time": {
       "title": "Part-Time Outsourcing",
       "description": "Flexible staffing models for startups and scaling companies who need experienced support without long-term commitments."
     },
