@@ -1,5 +1,6 @@
 import initTranslations from "../i18n";
-import Jobs from "@app/_components/Candidate/Jobs";
+import Link from "next/link";
+// import Jobs from "@app/_components/Candidate/Jobs";
 import RecruitmentProcess from "@app/_components/Candidate/RecruitmentProcess";
 import CaseStudy from "@app/_components/Common/CaseStudy";
 import Hero from "@app/_components/Common/Hero";
@@ -30,7 +31,7 @@ async function Candidate({
             </a>
           }
         />
-        <Jobs t={t} />
+        {/* <Jobs t={t} /> */}
         <SingleServiceWithImage
           dataAos="fade-up"
           imageUrl={"/images/candidate/submit-resume.png"}
@@ -38,11 +39,18 @@ async function Candidate({
           title={t("candidate:resumeService.title")}
           text={t("candidate:resumeService.description")}
           btn={
-            <a href={LINKS["submit-resume"]} target="_blank" rel="noreferrer">
-              <Button className="w-fit">
-                {t("candidate:resumeService.submit")}
-              </Button>
-            </a>
+            <div className="flex gap-4">
+              <a href={LINKS["submit-resume"]} target="_blank" rel="noreferrer">
+                <Button className="w-fit">
+                  {t("candidate:resumeService.submit")}
+                </Button>
+              </a>
+              <Link href="/job-openings">
+                <Button variant="third" className="w-fit">
+                  {t("candidate:resumeService.see-all-jobs")}
+                </Button>
+              </Link>
+            </div>
           }
           hasGradient={true}
         />
