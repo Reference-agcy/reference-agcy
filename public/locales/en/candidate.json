@@ -17,7 +17,8 @@
   "resumeService": {
     "title": "Submit Your Resume",
     "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.",
-    "submit": "Submit"
+    "submit": "Submit",
+    "see-all-jobs": "See All Jobs"
   },
   "recruitment": {
     "title": "Our Recruitment Process",

@@ -17,7 +17,8 @@
   "resumeService": {
     "title": "قدم سيرتك الذاتية",
     "description": "لوريم إيبسوم دولور سيت أميت، consectetuer adipiscing إيليت. ,دونك أوديو. ,Quisque volutpat mattis eros.",
-    "submit": "إرسال"
+    "submit": "إرسال",
+    "see-all-jobs": "عرض جميع الوظائف"
   },
   "recruitment": {
     "title": "عملية التوظيف لدينا",
