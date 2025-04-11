@@ -1,7 +1,9 @@
 import initTranslations from "@app/[locale]/i18n";
 import Link from "next/link";
-import { RiFacebookCircleLine } from "react-icons/ri";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { RiFacebookCircleLine, RiYoutubeLine } from "react-icons/ri";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
+import LINK from "@/public/data/links.json";
 
 export const Footer = async ({ locale }: { locale: string }) => {
   const { t } = await initTranslations(locale);
@@ -32,7 +34,7 @@ export const Footer = async ({ locale }: { locale: string }) => {
               <p>{t("common:footer.egypt.address-2")}</p>
             </div>
           </div>
-          {/* <div className="space-y-8 text-gray-300">
+          <div className="space-y-8 text-gray-300">
             <h3 className="text-lg font-medium text-gray-900 dark:text-gray-800 2xl:text-2xl">
               {t("common:footer.uae.title")}
             </h3>
@@ -42,7 +44,7 @@ export const Footer = async ({ locale }: { locale: string }) => {
               <p>{t("common:footer.uae.address-2")}</p>
             </div>
           </div>
-          <div className="space-y-8 text-gray-300">
+          {/* <div className="space-y-8 text-gray-300">
             <h3 className="text-lg font-medium text-gray-900 dark:text-gray-800 2xl:text-2xl">
               {t("common:footer.ksa.title")}
             </h3>
@@ -57,12 +59,15 @@ export const Footer = async ({ locale }: { locale: string }) => {
               {t("common:footer.follow-us")}
             </h3>
             <div className="flex flex-wrap gap-4 text-xl font-bold text-gray-300 2xl:text-2xl">
-              <Link href="/">
+              <Link href={LINK.social.facebook}>
                 <RiFacebookCircleLine size={28} />
               </Link>
-              <Link href="/">
+              <Link href={LINK.social.linkedin}>
                 <TiSocialLinkedinCircular size={28} />
               </Link>
+              {/* <Link href={LINK.social.youtube}>
+                <RiYoutubeLine size={28} />
+              </Link> */}
             </div>
           </div>
         </div>
