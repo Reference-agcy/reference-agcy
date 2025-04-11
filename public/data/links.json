@@ -3,5 +3,10 @@
   "videos": {
     "business": "",
     "candidate": ""
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/company/reference-agency",
+    "facebook": "https://www.facebook.com/reference.agency",
+    "youtube": "https://www.youtube.com/@referenceagency"
   }
 }
