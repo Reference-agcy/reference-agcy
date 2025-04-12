@@ -34,15 +34,15 @@
     "jobs": "Jobs",
     "egypt": {
       "title": "Egypt",
-      "phone": "+20 1000186400",
-      "address-1": "Building name, street office no.8",
-      "address-2": "Maadi, Cairo"
+      "phone": "+2015-555-74704",
+      "address-1": "Izar Mall, Palm Hills",
+      "address-2": "6th of October, Giza"
     },
     "uae": {
       "title": "UAE",
-      "phone": "+971507166009",
-      "address-1": "Building name, Al-Jaddaf office no.8",
-      "address-2": "Jaddaf, Dubai"
+      "phone": "+971-52-122-3804",
+      "address-1": "Grand Stand - Nad Al Sheba - Nad Al Sheba 1",
+      "address-2": "Nad Al Sheba, Dubai"
     },
     "ksa": {
       "title": "Saudi Arabia",
