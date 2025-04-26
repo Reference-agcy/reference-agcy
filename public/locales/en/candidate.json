@@ -1,8 +1,8 @@
 {
   "hero": {
-    "subtitle": "A creative agency that lead and inspire",
-    "title": "Empowering People, Transforming Workplaces",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros..",
+    "subtitle": "Your career deserves a strategic partner",
+    "title": "Empowering Your Potential, Connecting You to Opportunity",
+    "description": "At Reference Agency, we don’t just find you a job — we help you build a career. We match ambitious professionals with forward-thinking companies where they can thrive, grow, and make an impact.",
     "submitResume": "Submit Resume"
   },
   "jobs": {
@@ -16,7 +16,7 @@
   },
   "resumeService": {
     "title": "Submit Your Resume",
-    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.",
+    "description": "Ready for your next career move? Share your resume with us and open the door to new opportunities tailored to your skills, ambitions, and growth potential.",
     "submit": "Submit",
     "see-all-jobs": "See All Jobs"
   },
@@ -27,50 +27,50 @@
         "stage": "Stage 1",
         "cards": [
           {
-            "title": "Fully customizable",
-            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+            "title": "Understanding Your Career Goals",
+            "description": "We start by listening — learning about your ambitions, experiences, and the environments where you can excel."
           },
           {
-            "title": "Fully customizable",
-            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+            "title": "Building Your Professional Profile",
+            "description": "Together, we craft a strong professional image — from resume optimization to highlighting your unique strengths."
           }
         ],
-        "title": "Your Growth Partner",
-        "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts Mix-and-match dozens of responsive elements to quickly configure.\n\nMix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+        "title": "Getting to Know You",
+        "description": "Before we recommend any job, we take time to understand you — your skills, career ambitions, preferred work culture, and what truly motivates you. We believe the right opportunity is about more than a title; it’s about where you can grow and thrive."
       },
       {
         "stage": "Stage 2",
         "cards": [
           {
-            "title": "Fully customizable",
-            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+            "title": "Smart Matching with Top Employers",
+            "description": "We align your experience and ambitions with companies that match your potential and growth path."
           },
           {
-            "title": "Fully customizable",
-            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+            "title": "Interview Coaching & Preparation",
+            "description": "We provide you with detailed preparation, interview tips, and company insights to help you shine."
           },
           {
-            "title": "Fully customizable",
-            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+            "title": "Personalized Career Advice",
+            "description": "We offer honest, strategic guidance to help you make decisions that serve your long-term success."
           }
         ],
-        "title": "Your Growth Partner",
-        "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts Mix-and-match dozens of responsive elements to quickly configure.\n\nMix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+        "title": "Connecting You with Opportunities",
+        "description": "Once we know your story, we connect you with the right opportunities. Not just any open role — but companies and cultures that truly fit your journey. Along the way, we coach you, support you, and open new doors for your career growth."
       },
       {
         "stage": "Stage 3",
         "cards": [
           {
-            "title": "Fully customizable",
-            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+            "title": "Guiding Your Offers & Decisions",
+            "description": "We help you review opportunities wisely, negotiate effectively, and secure the best fit for your career goals."
           },
           {
-            "title": "Fully customizable",
-            "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+            "title": "Ensuring a Smooth Start",
+            "description": "We assist with onboarding and transition support, helping you feel prepared and excited for your new role."
           }
         ],
-        "title": "Your Growth Partner",
-        "description": "Mix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts Mix-and-match dozens of responsive elements to quickly configure.\n\nMix-and-match dozens of responsive elements to quickly configure your favorite landing page layouts"
+        "title": "Supporting Your Next Move",
+        "description": "When the offers come, we stay by your side. We advise you through evaluations, negotiations, and onboarding — ensuring your next step is a strong, confident leap forward in your career journey."
       }
     ]
   }
