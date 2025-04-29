@@ -37,13 +37,13 @@ const OTHER_PAGES: {
     text: "about-us",
   },
   {
+    href: "/job-openings",
+    text: "Jobs",
+  },
+  {
     href: "/blog-home",
     text: "blog",
   },
-  // {
-  //   href: "/faqs",
-  //   text: "resources",
-  // },
 ];
 
 export default Others;
