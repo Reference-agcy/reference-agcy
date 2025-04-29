@@ -38,7 +38,7 @@ const OTHER_PAGES: {
   },
   {
     href: "/job-openings",
-    text: "Jobs",
+    text: "jobs",
   },
   {
     href: "/blog-home",
