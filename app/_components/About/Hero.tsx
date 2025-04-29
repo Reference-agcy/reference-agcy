@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import heroImg from "@/public/images/about/about.jpeg";
+import heroImg from "@/public/images/about/about2.jpeg";
 
 interface Props {
   t: (key: string) => string;
