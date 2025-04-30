@@ -1,32 +1,9 @@
 {
-  "hero-text": "With over 15 years of experience in HR, Reference Agency specializes in technology hiring, HR consultancy, and outsourcing services. We partner with ambitious businesses across Egypt, KSA, UAE—and soon the entire MENA region—to solve their most critical HR challenges and elevate workforce performance. We’re not just recruiters. We’re your strategic partner—turning talent strategy into business growth through smart, scalable, people-first solutions.",
-  "hero-alt": "About Reference Agency team working on a growth strategy",
-  "identity": {
-    "title": "Who We Are & What We Stand For",
-    "mission": "Empowering businesses with customized HR solutions that drive growth, efficiency, and long-term success.",
-    "vision": "To become the trusted HR partner of choice across Egypt, KSA, UAE, and soon the entire MENA region—transforming the way businesses attract, manage, and retain talent."
-  },
+  "hero-text": "We partner with ambitious businesses and professionals to unlock growth through tailored HR solutions, recruitment intelligence, and workforce strategy.",
+  "hero-alt": "about us image",
   "values": {
-    "title": "Our Core Values",
-    "description": "We build strong, lasting relationships, deliver exceptional results, adapt to dynamic business needs, and uphold the highest standards of trust and transparency.",
-    "items": [
-      {
-        "title": "Partnership",
-        "description": "We believe in long-term collaboration and shared success."
-      },
-      {
-        "title": "Agility",
-        "description": "We adapt fast to change, delivering flexible and responsive solutions."
-      },
-      {
-        "title": "Excellence",
-        "description": "We strive to deliver quality at every stage of the journey."
-      },
-      {
-        "title": "Integrity",
-        "description": "We act with honesty, transparency, and strong ethical standards."
-      }
-    ]
+    "title": "Our Values",
+    "description": "We are committed to providing the best service to our customers. We are always looking for ways to improve our platform and make it easier for you to find the job you want."
   },
   "testimonials": {
     "title": "Success Stories"
