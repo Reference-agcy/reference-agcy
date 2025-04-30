@@ -1,13 +1,9 @@
 {
   "hero-text": "We partner with ambitious businesses and professionals to unlock growth through tailored HR solutions, recruitment intelligence, and workforce strategy.",
-  "hero-alt": "About Reference Agency",
-  "aboutIntro": {
-    "title": "Who We Are",
-    "description": "With over 15 years of experience in HR, Reference Agency specializes in technology hiring, HR consultancy, and outsourcing services. We partner with ambitious businesses across Egypt, KSA, UAE—and soon the entire MENA region—to solve their most critical HR challenges and elevate workforce performance. We’re not just recruiters. We’re your strategic partner—turning talent strategy into business growth through smart, scalable, people-first solutions."
-  },
+  "hero-alt": "about us image",
   "values": {
-    "title": "Our Core Values",
-    "description": "We build strong, lasting relationships, deliver exceptional results, adapt to dynamic business needs, and uphold the highest standards of trust and transparency."
+    "title": "Our Values",
+    "description": "We are committed to providing the best service to our customers. We are always looking for ways to improve our platform and make it easier for you to find the job you want."
   },
   "testimonials": {
     "title": "Success Stories"
