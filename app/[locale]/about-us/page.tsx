@@ -1,5 +1,6 @@
 import initTranslations from "../i18n";
 import Hero from "@app/_components/About/Hero";
+import OurValues from "@app/_components/About/OurStory";
 import OurValues from "@app/_components/About/OurValues";
 import Testimonials from "@app/_components/About/Testimonials";
 import ScreenHeader from "@app/_components/Common/ScreenHeader";
@@ -19,6 +20,7 @@ async function AboutUs({ params: { locale } }: { params: { locale: string } }) {
         ]}
       />
       <Hero t={t} />
+      <OurStory t={t} />
       <OurValues t={t} />
       <Testimonials />
     </main>
