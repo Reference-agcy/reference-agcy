@@ -6,6 +6,7 @@
   "page": "الصفحة",
   "services": "الخدمات",
   "about-us": "من نحن",
+  "job-openings": "الوظائف",
   "resources": "الموارد",
   "blog": "المدونة",
   "&": "و",
@@ -32,7 +33,7 @@
     "projects": "المشاريع",
     "what-we-do": "ماذا نقدم",
     "press": "الصحافة",
-    "jobs": "الوظائف",
+    "job-openings": "الوظائف",
     "egypt": {
       "title": "مصر",
       "phone": "+20 1000186400",
