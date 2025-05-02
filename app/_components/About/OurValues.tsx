@@ -12,8 +12,16 @@ const OurValues = ({ t }: Props) => {
           {t("about:values.title")}
         </h2>
         <p className="text-xl leading-relaxed tracking-wide text-gray-500">
-          {t("about:values.description")}
-        </p>
+          {t("about:values.part1")}{" "}
+          <strong className="text-black font-semibold">{t("about:values.partnership")}</strong>
+          {t("about:values.part2")}{" "}
+          <strong className="text-black font-semibold">{t("about:values.agility")}</strong>
+          {t("about:values.part3")}{" "}
+          <strong className="text-black font-semibold">{t("about:values.excellence")}</strong>
+          {t("about:values.part4")}{" "}
+          <strong className="text-black font-semibold">{t("about:values.integrity")}</strong>
+          {t("about:values.part5")}
+      </p>
       </div>
     </section>
   );
