@@ -1,6 +1,7 @@
 import "./globals.css";
 import "react-toastify/dist/ReactToastify.css";
 import type { Metadata } from "next";
+import Script from "next/script";
 import { DM_Sans, Noto_Sans_Arabic } from "next/font/google";
 import { cookies } from "next/headers";
 import { ToastContainer } from "react-toastify";
@@ -54,6 +55,20 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" href="/favicon.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      
+        {/* Google Analytics Script Loader */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-1J69PLXP20"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-1J69PLXP20');
+          `}
+        </Script>
       </head>
       <TranslationsProvider locale={locale} resources={translations}>
         <body className={`${fontClass} relative`}>
