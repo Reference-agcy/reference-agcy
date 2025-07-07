@@ -80,32 +80,23 @@
       "description": "We take a systematic approach to managing your HR operations, implementing proven processes and leveraging technology to deliver efficient, compliant, and employee-friendly HR services."
     }
   },
-   "recruitment": {
-    "title": "Recruitment Services",
+  "recruitment": {
+    "title": "Recruitment",
     "benefits": {
-      "title": "Build Winning Teams",
-      "description": "Leverage our tech-enabled recruitment solutions to access qualified, culturally-aligned talent tailored to your growth goals.",
+      "title": "Find Top Talent",
+      "description": "Access the best candidates through our comprehensive recruitment solutions.",
       "1": {
-        "title": "Quality Matches"
+        "title": "Quality Candidates"
       },
       "2": {
-        "title": "Faster Hiring"
+        "title": "Fast Hiring"
       },
       "3": {
-        "title": "Real Market Intelligence"
+        "title": "Market Insights"
       },
       "4": {
-        "title": "Optimized Cost-per-Hire"
+        "title": "Cost-Effective"
       }
-  },
-  "hero": {
-    "top_paragraph": "Tech-driven. People-first. Culture-aligned.<br/>We connect you with talent that fuels your success.",
-    "bottom_paragraph": "At Reference Agency, we combine deep industry insight with AI-powered tools and human expertise to help you hire the right people — faster. From tech startups to enterprise teams, we tailor each recruitment journey to meet your culture, structure, and vision."
-  },
-  "how-it-works": {
-    "description": "Our proven process blends smart sourcing, precise assessment, and personalized support — helping you hire top talent with confidence and speed."
-  }
-}
     },
     "hero": {
       "top_paragraph": "Strategic Talent Acquisition<br/>Find the perfect candidates for your organization through our advanced recruitment solutions.",
