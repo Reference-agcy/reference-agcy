@@ -21,7 +21,7 @@ function HeroSection({
         <Image
           src={image}
           alt="header image"
-          className="aspect-[2.35/1] w-full object-cover"
+            className="w-full h-auto object-contain"
         />
       </figure>
       <p className="text-lg text-gray-200">{bottomParagraph}</p>
