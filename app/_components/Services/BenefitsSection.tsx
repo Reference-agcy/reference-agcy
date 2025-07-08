@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Button } from "@app/_components/ui/button";
 import BookIcon from "@/public/icons/services/benefits/money.svg";
 import HeartIcon from "@/public/icons/services/benefits/quality2.svg";
-import PotIcon from "@/public/icons/services/benefits/analytics2.svg";
+import PotIcon from "@/public/icons/services/benefits/analytics3.svg";
 import Profile2Users from "@/public/icons/services/benefits/fast2.svg";
 
 type BenefitsSectionProps = {
