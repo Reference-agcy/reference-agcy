@@ -2,10 +2,10 @@ import { i18n } from "i18next";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@app/_components/ui/button";
-import BookIcon from "@/public/icons/services/benefits/book.svg";
-import HeartIcon from "@/public/icons/services/benefits/heart.svg";
-import PotIcon from "@/public/icons/services/benefits/pot.svg";
-import Profile2Users from "@/public/icons/services/benefits/profile-2user.svg";
+import BookIcon from "@/public/icons/services/benefits/cost2.svg";
+import HeartIcon from "@/public/icons/services/benefits/quality2.svg";
+import PotIcon from "@/public/icons/services/benefits/analytics2.svg";
+import Profile2Users from "@/public/icons/services/benefits/fast2.svg";
 
 type BenefitsSectionProps = {
   t: i18n["t"];
