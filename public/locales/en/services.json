@@ -31,53 +31,53 @@
   "full-time-outsource": {
     "title": "Full-Time Outsource",
     "benefits": {
-      "title": "Dedicated Professional Support",
-      "description": "Access dedicated full-time professionals through our comprehensive outsourcing solutions.",
+      "title": "Dedicated Talent. Zero Overhead.",
+      "description": "Build your team with full-time professionals, fully managed and integrated into your operation.",
       "1": {
-        "title": "Dedicated Resources"
+        "title": "Exclusive Dedicated Talent"
       },
       "2": {
-        "title": "Long-term Stability"
+        "title": "Scalable & Stable Teams"
       },
       "3": {
-        "title": "Complete Integration"
+        "title": "Cultural & Operational Fit"
       },
       "4": {
-        "title": "Cost Optimization"
+        "title": "Total Cost Control"
       }
     },
     "hero": {
-      "top_paragraph": "Full-Time Excellence<br/>Connect with dedicated professionals through our comprehensive outsourcing solutions.",
-      "bottom_paragraph": "Our full-time outsourcing service provides businesses with dedicated professionals who become an integral part of your team. We handle all aspects of employment while you focus on achieving your business objectives with reliable, committed talent."
+      "top_paragraph": "Your Team, Our Responsibility<br/>Hire full-time professionals through our seamless outsourcing model.",
+      "bottom_paragraph": "We empower companies to grow confidently by providing full-time professionals who integrate into your team and culture. You get the commitment of in-house talent — with none of the administrative burden."
     },
     "how-it-works": {
-      "description": "Our full-time outsourcing process ensures seamless integration of talented professionals into your organization. We manage everything from recruitment to ongoing support, creating a hassle-free experience for your business."
+      "description": "We handle the full employee lifecycle: recruitment, onboarding, legal compliance, payroll, and performance tracking. You focus on results — we handle the rest."
     }
   },
   "hr-operations-outsource": {
     "title": "HR Operations Outsourcing",
     "benefits": {
-      "title": "Streamline Your HR",
-      "description": "Transform your HR operations with our comprehensive outsourcing solutions.",
+      "title": "Operational HR, Expertly Managed",
+      "description": "Outsource your day-to-day HR operations and stay focused on your core business.",
       "1": {
-        "title": "Compliance Assurance"
+        "title": "Local Compliance Coverage"
       },
       "2": {
-        "title": "Process Optimization"
+        "title": "HR Process Automation"
       },
       "3": {
-        "title": "Cost Reduction"
+        "title": "Lower Admin Costs"
       },
       "4": {
-        "title": "Expert Support"
+        "title": "Professional HR Team"
       }
     },
     "hero": {
-      "top_paragraph": "Expert HR Management<br/>Optimize your HR operations with our comprehensive outsourcing solutions.",
-      "bottom_paragraph": "Let us handle your HR operations while you focus on growing your business. Our team of experienced HR professionals ensures compliance, efficiency, and best practices in all aspects of human resource management."
+      "top_paragraph": "Reliable HR Support<br/>Let our team manage your HR operations while you grow your business.",
+      "bottom_paragraph": "We support companies by running their HR operations — from onboarding and employee records to contracts, payroll inputs, and compliance reporting. Our experts ensure your internal processes stay efficient, legal, and employee-friendly."
     },
     "how-it-works": {
-      "description": "We take a systematic approach to managing your HR operations, implementing proven processes and leveraging technology to deliver efficient, compliant, and employee-friendly HR services."
+      "description": "Our approach includes assessing your current HR workflows, identifying gaps, and implementing better systems and tools. You get a trusted HR partner without needing to build an in-house team."
     }
   },
   "recruitment": {
@@ -109,27 +109,27 @@
   "hr-consultation": {
     "title": "HR Consultation",
     "benefits": {
-      "title": "Expert HR Guidance",
-      "description": "Get professional HR advice and solutions tailored to your business needs.",
+      "title": "Transform Your People Strategy",
+      "description": "Access expert, practical, and scalable HR solutions tailored to your company's growth stage and structure.",
       "1": {
-        "title": "Strategic Planning"
+        "title": "Strategic HR Alignment"
       },
       "2": {
-        "title": "Policy Development"
+        "title": "Policy & Structure Design"
       },
       "3": {
-        "title": "Performance Management"
+        "title": "Performance & Culture Building"
       },
       "4": {
-        "title": "Compliance Support"
+        "title": "Local Compliance & Best Practices"
       }
     },
     "hero": {
-      "top_paragraph": "Strategic HR Solutions<br/>Expert guidance to optimize your human resources management and organizational development.",
-      "bottom_paragraph": "Our HR consultation services provide strategic guidance and practical solutions to help your organization thrive. We work closely with you to develop effective HR strategies, policies, and practices that align with your business objectives."
+      "top_paragraph": "Human-Centered. Business-Aligned.<br/>We design HR systems that drive sustainable growth.",
+      "bottom_paragraph": "Our HR consultation services support startups, scale-ups, and established companies in building strong people foundations. From policies and grading structures to performance frameworks and cultural transformation, we help you unlock your team’s full potential — while staying compliant and competitive."
     },
     "how-it-works": {
-      "description": "Our consultative approach begins with understanding your unique challenges and objectives. We then develop tailored solutions and provide ongoing support to ensure successful implementation and sustainable results."
+      "description": "We start by assessing your current HR setup, listening closely to your leadership and team needs. Then we co-create tailored strategies, structures, and processes — with ongoing advisory and implementation support."
     }
   }
 }
