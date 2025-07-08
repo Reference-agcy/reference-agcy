@@ -7,7 +7,7 @@ import HeroSection from "@app/_components/Services/HeroSection";
 import HowItWorksSection from "@app/_components/Services/HowItWorksSection";
 import PageContainer from "@app/_components/Services/PageContainer";
 import { defaultLocale } from "@/constants";
-import HeroImage from "@/public/images/services/recruitment.jpg";
+import HeroImage from "@/public/images/services/recruitment2.jpg";
 
 type RecruitmentProps = {
   params: { locale: string };
