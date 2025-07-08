@@ -109,8 +109,8 @@
   "hr-consultation": {
     "title": "HR Consultation",
     "benefits": {
-      "title": "Transform Your People Strategy",
-      "description": "Access expert, practical, and scalable HR solutions tailored to your company's growth stage and structure.",
+      "title": "Smart People Governance",
+      "description": "Get tailored HR strategies and expert support to build scalable systems aligned with your company’s growth and market dynamics.",
       "1": {
         "title": "Strategic HR Alignment"
       },
@@ -118,18 +118,18 @@
         "title": "Policy & Structure Design"
       },
       "3": {
-        "title": "Performance & Culture Building"
+        "title": "Performance & Culture Development"
       },
       "4": {
         "title": "Local Compliance & Best Practices"
       }
     },
     "hero": {
-      "top_paragraph": "Human-Centered. Business-Aligned.<br/>We design HR systems that drive sustainable growth.",
-      "bottom_paragraph": "Our HR consultation services support startups, scale-ups, and established companies in building strong people foundations. From policies and grading structures to performance frameworks and cultural transformation, we help you unlock your team’s full potential — while staying compliant and competitive."
+      "top_paragraph": "Strategic Insight. Executable Systems.<br/>We co-create HR solutions that fuel growth and empower your people.",
+      "bottom_paragraph": "At Reference Agency, we help you build a strong foundation for HR — from grading frameworks and performance systems to culture and compliance. Our consulting is grounded in deep understanding of your business, your people, and your local market. We deliver clarity, structure, and results."
     },
     "how-it-works": {
-      "description": "We start by assessing your current HR setup, listening closely to your leadership and team needs. Then we co-create tailored strategies, structures, and processes — with ongoing advisory and implementation support."
+      "description": "We begin with focused discovery sessions to understand your current HR environment. Then we co-develop a practical roadmap covering strategy, policy, and structure — and guide you step-by-step through implementation to ensure real, lasting impact."
     }
   }
 }
