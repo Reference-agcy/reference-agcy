@@ -1,44 +1,30 @@
 [
   {
     "title": "Success Stories",
-    "description": "Thank you for keeping me up to date, I appreciate it all the recruitment agencies I've been dealing with have not been anywhere near as good with getting back to me",
-    "name": "John Doe",
-    "position": "Product Manager at Shopify",
+    "description": "Reference Agency has been an essential strategic partner in building our HR foundation. From sourcing the right talent to designing our HR strategy, their continuous support has helped us scale with confidence.",
+    "name": "Mohamed Elgazar",
+    "position": "CEO at Centione",
     "image": "/images/about/testimonial.jpg"
   },
   {
     "title": "Success Stories",
-    "description": "Thank you for keeping me up to date, I appreciate it all the recruitment agencies I've been dealing with have not been anywhere near as good with getting back to me",
-    "name": "John Doe",
-    "position": "Product Manager at Shopify",
+    "description": "The quality of candidates delivered by Reference Agency is consistently outstanding. They truly understand our business and always present talent that fits both technically and culturally.",
+    "name": "Khaled Youssef",
+    "position": "CEO at NextEra",
     "image": "/images/about/testimonial.jpg"
   },
   {
     "title": "Success Stories",
-    "description": "Thank you for keeping me up to date, I appreciate it all the recruitment agencies I've been dealing with have not been anywhere near as good with getting back to me",
-    "name": "John Doe",
-    "position": "Product Manager at Shopify",
+    "description": "We relied on Reference Agency for total rewards advisory and salary benchmarking across multiple markets — and their insight was sharp, reliable, and directly actionable.",
+    "name": "Abdelrahman Kamal",
+    "position": "International Tax Director at Alliance Prime Accounting and Tax Consultancy",
     "image": "/images/about/testimonial.jpg"
   },
   {
     "title": "Success Stories",
-    "description": "Thank you for keeping me up to date, I appreciate it all the recruitment agencies I've been dealing with have not been anywhere near as good with getting back to me",
-    "name": "John Doe",
-    "position": "Product Manager at Shopify",
-    "image": "/images/about/testimonial.jpg"
-  },
-  {
-    "title": "Success Stories",
-    "description": "Thank you for keeping me up to date, I appreciate it all the recruitment agencies I've been dealing with have not been anywhere near as good with getting back to me",
-    "name": "John Doe",
-    "position": "Product Manager at Shopify",
-    "image": "/images/about/testimonial.jpg"
-  },
-  {
-    "title": "Success Stories",
-    "description": "Thank you for keeping me up to date, I appreciate it all the recruitment agencies I've been dealing with have not been anywhere near as good with getting back to me",
-    "name": "John Doe",
-    "position": "Product Manager at Shopify",
+    "description": "Their ongoing advisory in labor law, social insurance, and company culture has been invaluable. Reference Agency is not just a service provider — they’re a trusted HR advisor.",
+    "name": "Ahmed Nashaat",
+    "position": "Managing Director at Brandfy",
     "image": "/images/about/testimonial.jpg"
   }
 ]
