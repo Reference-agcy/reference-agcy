@@ -3,6 +3,8 @@ import Link from "next/link";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { RiFacebookCircleLine, RiYoutubeLine } from "react-icons/ri";
 import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { RiInstagramLine } from "react-icons/ri";
+import { FaTiktok } from "react-icons/fa";
 import LINK from "@/public/data/links.json";
 
 export const Footer = async ({ locale }: { locale: string }) => {
@@ -65,6 +67,12 @@ export const Footer = async ({ locale }: { locale: string }) => {
               </Link>
               <Link href={LINK.social.linkedin}>
                 <TiSocialLinkedinCircular size={28} />
+              </Link>
+              <Link href={LINK.social.instagram}>
+                <RiInstagramLine size={28} />
+              </Link>
+              <Link href={LINK.social.tiktok}>
+                <FaTiktok size={28} />
               </Link>
               {/* <Link href={LINK.social.youtube}>
                 <RiYoutubeLine size={28} />
