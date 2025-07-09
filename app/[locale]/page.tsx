@@ -39,7 +39,7 @@ export default async function Page({ params: { locale } }: PageProps) {
         />
         <Services t={t} />
         <OurValuedClients t={t} />
-        <CaseStudy t={t} videoUrl={LINKS.videos.business || undefined} />
+        /*<CaseStudy t={t} videoUrl={LINKS.videos.business || undefined} />*/
         <Suspense
           fallback={
             <div className="col-span-full flex justify-center px-8 py-1">
