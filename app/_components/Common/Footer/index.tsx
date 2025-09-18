@@ -62,19 +62,19 @@ export const Footer = async ({ locale }: { locale: string }) => {
               {t("common:footer.follow-us")}
             </h3>
             <div className="flex flex-wrap gap-4 text-xl font-bold text-gray-300 2xl:text-2xl">
-              <Link href={LINK.social.facebook}>
+              <Link href={LINK.social.facebook} target="_blank" rel="noopener noreferrer">
                 <RiFacebookCircleLine size={28} />
               </Link>
-              <Link href={LINK.social.linkedin}>
+              <Link href={LINK.social.linkedin} target="_blank" rel="noopener noreferrer">
                 <TiSocialLinkedinCircular size={28} />
               </Link>
-              <Link href={LINK.social.instagram}>
+              <Link href={LINK.social.instagram} target="_blank" rel="noopener noreferrer">
                 <RiInstagramLine size={28} />
               </Link>
-              <Link href={LINK.social.tiktok}>
+              <Link href={LINK.social.tiktok} target="_blank" rel="noopener noreferrer">
                 <FaTiktok size={28} />
               </Link>
-              {/* <Link href={LINK.social.youtube}>
+              {/* <Link href={LINK.social.youtube} target="_blank" rel="noopener noreferrer">
                 <RiYoutubeLine size={28} />
               </Link> */}
             </div>
