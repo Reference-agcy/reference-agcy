@@ -63,29 +63,19 @@ export const Footer = async ({ locale }: { locale: string }) => {
             </h3>
             <div className="flex flex-wrap gap-4 text-xl font-bold text-gray-300 2xl:text-2xl">
               <Link href={LINK.social.facebook}>
-                <a target="_blank" rel="noopener noreferrer">
-                  <RiFacebookCircleLine size={28} />
-                </a>
+                <RiFacebookCircleLine size={28} />
               </Link>
               <Link href={LINK.social.linkedin}>
-                <a target="_blank" rel="noopener noreferrer">
-                  <TiSocialLinkedinCircular size={28} />
-                </a>
+                <TiSocialLinkedinCircular size={28} />
               </Link>
               <Link href={LINK.social.instagram}>
-                <a target="_blank" rel="noopener noreferrer">
-                  <RiInstagramLine size={28} />
-                </a>
+                <RiInstagramLine size={28} />
               </Link>
               <Link href={LINK.social.tiktok}>
-                <a target="_blank" rel="noopener noreferrer">
-                  <FaTiktok size={28} />
-                </a>
+                <FaTiktok size={28} />
               </Link>
               {/* <Link href={LINK.social.youtube}>
-                 <a target="_blank" rel="noopener noreferrer">
-                  <RiYoutubeLine size={28} />
-                </a>  
+                <RiYoutubeLine size={28} />
               </Link> */}
             </div>
           </div>
