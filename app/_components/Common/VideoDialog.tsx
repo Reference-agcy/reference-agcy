@@ -15,7 +15,7 @@ interface Props {
   videoUrl?: string;
 }
 const VideoDialog = ({
-  videoUrl = "https://www.youtube.com/embed/tWoo8i_VkvI?si=kvJJGIune6mdM1bI",
+  videoUrl = "https://www.youtube.com/watch?v=7EsDTWjtVmU",
 }: Props) => {
   const { t } = useTranslation("common");
 
