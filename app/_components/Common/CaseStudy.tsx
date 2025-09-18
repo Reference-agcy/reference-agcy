@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import VideoDialog from "./VideoDialog";
-import caseStudyImg from "@/public/images/home/case-study.jpg";
+import caseStudyImg from "@/public/images/home/new-case-study.jpg";
 
 interface Props {
   t: (key: string) => string;
