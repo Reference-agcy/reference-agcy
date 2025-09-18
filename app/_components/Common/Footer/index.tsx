@@ -74,9 +74,9 @@ export const Footer = async ({ locale }: { locale: string }) => {
               <Link href={LINK.social.tiktok} target="_blank" rel="noopener noreferrer">
                 <FaTiktok size={28} />
               </Link>
-              {/* <Link href={LINK.social.youtube} target="_blank" rel="noopener noreferrer">
+              <Link href={LINK.social.youtube} target="_blank" rel="noopener noreferrer">
                 <RiYoutubeLine size={28} />
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>
